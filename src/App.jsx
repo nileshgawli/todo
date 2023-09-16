@@ -3,6 +3,7 @@ import "./App.css";
 import Navbar from "./components/Navbar";
 import Timeline from "./components/Timeline";
 import AddTask from "./components/AddTask";
+import Tasks from "./components/Tasks";
 
 function App() {
   return (
@@ -12,8 +13,13 @@ function App() {
           <Navbar />
           <Timeline />
           <div className="w-full flex justify-center">
-            <div className="w-[80%] ">
+            <div className="w-[80%]">
               <AddTask />
+              <Tasks/>
+              <Tasks/>
+              <Tasks/>
+              <Tasks/>
+              <Tasks/>
             </div>
           </div>
         </div>
